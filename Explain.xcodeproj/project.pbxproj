@@ -14,6 +14,7 @@
 		694838D21B846BB600856E46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694838D11B846BB600856E46 /* Images.xcassets */; };
 		694838D51B846BB600856E46 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 694838D31B846BB600856E46 /* LaunchScreen.xib */; };
 		694838E11B846BB600856E46 /* ExplainTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 694838E01B846BB600856E46 /* ExplainTests.m */; };
+		694838EC1B8476A500856E46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 694838EB1B8476A500856E46 /* ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		694838DA1B846BB600856E46 /* ExplainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExplainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		694838DF1B846BB600856E46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		694838E01B846BB600856E46 /* ExplainTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExplainTests.m; sourceTree = "<group>"; };
+		694838EA1B8476A500856E46 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		694838EB1B8476A500856E46 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		694838B81B846BB500856E46 = {
 			isa = PBXGroup;
 			children = (
+				694838EA1B8476A500856E46 /* ViewController.h */,
+				694838EB1B8476A500856E46 /* ViewController.m */,
 				694838C31B846BB500856E46 /* Explain */,
 				694838DD1B846BB600856E46 /* ExplainTests */,
 				694838C21B846BB500856E46 /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				694838CD1B846BB600856E46 /* ViewController.m in Sources */,
 				694838CA1B846BB600856E46 /* AppDelegate.m in Sources */,
+				694838EC1B8476A500856E46 /* ViewController.m in Sources */,
 				694838C71B846BB600856E46 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
